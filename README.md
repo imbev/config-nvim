@@ -2,7 +2,7 @@
 
 imbev's Neovim configuration
 
-Licensed under the MIT license (LICENSE.md)[LICENSE.md].
+Licensed under the MIT license ([LICENSE.md](./LICENSE.md)).
 
 ## Requires
 
