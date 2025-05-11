@@ -7,12 +7,13 @@ Licensed under the MIT license ([LICENSE.md](./LICENSE.md)).
 ## Requires
 
 - Neovim v10+
+  - Works with v10, v11
 - git
 - npm
 
 ## Installation
 
 ```shell
-git clone https://gitea.com/imbev/config-nvim.git ~/.config/nvim
+git clone https://github.com/imbev/config-nvim.git ~/.config/nvim
 ```
 
