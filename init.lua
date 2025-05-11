@@ -15,7 +15,7 @@ vim.opt.rtp:prepend(lazypath)
 
 
 require('lazy').setup({
-  {'folke/tokyonight.nvim', tag='v4.11.0'},
+  {'ray-x/starry.nvim', commit = '972158d6f9a630fad1954f42b921983ab4de8ab3'},
   {'neovim/nvim-lspconfig', tag='v1.7.0'},
   {'hrsh7th/cmp-nvim-lsp', commit='99290b3ec1322070bcfb9e846450a46f6efa50f0'},
   {'hrsh7th/nvim-cmp', tag='v0.0.2'},
@@ -25,9 +25,10 @@ require('lazy').setup({
   {'lewis6991/gitsigns.nvim', tag='v1.0.1'},
 })
 
-
+require('starry').setup({})
 vim.opt.termguicolors = true
-vim.cmd.colorscheme('tokyonight')
+vim.cmd.colorscheme('darksolar')
+
 require('bufferline').setup{
   options = {
     diagnostics = 'nvim_lsp'
