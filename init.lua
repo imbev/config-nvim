@@ -31,6 +31,13 @@ vim.cmd.colorscheme('darksolar')
 
 require('bufferline').setup{
   options = {
+    buffer_close_icon = 'x',
+    close_icon = 'x',
+    left_trunc_market = '...',
+    right_trunc_marker = '...',
+    get_element_icon = function(_)
+      return ''
+    end,
     diagnostics = 'nvim_lsp'
   }
 }
