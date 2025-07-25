@@ -27,6 +27,7 @@ require('lazy').setup({
 
 require('starry').setup({})
 vim.opt.termguicolors = true
+vim.opt.colorcolumn = '80'
 vim.cmd.colorscheme('darksolar')
 
 require('bufferline').setup{
